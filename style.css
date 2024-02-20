@@ -1,0 +1,29 @@
+.profile {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.profile {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.thunkable-app {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.banner {
+    background-color: #002f6c; /* Adjust the color to match your site's theme */
+    text-align: center; /* Center the logo */
+    padding: 10px 0; /* Add some padding around the logo */
+}
+
+.banner img {
+    max-width: 100%; /* Ensure the logo is responsive and doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 150px; /* Adjust max-height as needed */
+}
