@@ -1,4 +1,5 @@
 {
+    "id": "2d5914f2-35b9-40b7-99d2-ae7088a79b2c",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -101,23 +102,77 @@
             "name": "Image2"
         },
         {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Sign-in instead",
+                "TextColor": "rgba(0, 0, 0, 1)",
+                "FontSize": 16,
+                "Font": "",
+                "CustomFont": "",
+                "BackgroundColor": "rgba(0, 0, 0, 0)",
+                "Height": 36,
+                "Width": 125,
+                "Visible": true,
+                "X": 125,
+                "Y": 479,
+                "RelativeX": 125,
+                "RelativeY": 479,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "69.06666259765625%",
+                    "top": "82.2776142446355%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "2d5914f2-35b9-40b7-99d2-ae7088a79b2c",
+                "position": "absolute",
+                "edgeOffsets": 479
+            },
+            "children": [],
+            "id": "5433c515-e464-46c0-be47-88be0083b4e7",
+            "thunkableVersion": 443,
+            "name": "swap"
+        },
+        {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Label",
+                "Text": "",
                 "FontSize": 18,
                 "Font": "",
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(208, 2, 27, 1)",
-                "Height": 79,
-                "Width": 317,
+                "Height": 45,
+                "Width": 328,
                 "Visible": true,
-                "X": 28,
-                "Y": 563,
-                "RelativeX": 28,
-                "RelativeY": 563,
+                "X": 24,
+                "Y": 575,
+                "RelativeX": 24,
+                "RelativeY": 575,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(208, 2, 27, 1)",
@@ -158,67 +213,13 @@
                 },
                 "ParentId": "2d5914f2-35b9-40b7-99d2-ae7088a79b2c",
                 "position": "absolute",
-                "edgeOffsets": 563,
-                "children": "Label"
+                "edgeOffsets": 575,
+                "children": ""
             },
             "children": [],
             "id": "e91dc865-1990-4329-a819-996843fae12d",
             "thunkableVersion": 444,
             "name": "Error Label"
-        },
-        {
-            "type": "Button",
-            "translatedName": "Button",
-            "properties": {
-                "Text": "Sign-in instead",
-                "TextColor": "rgba(0, 0, 0, 1)",
-                "FontSize": 16,
-                "Font": "",
-                "CustomFont": "",
-                "BackgroundColor": "rgba(0, 0, 0, 0)",
-                "Height": 36,
-                "Width": 125,
-                "Visible": true,
-                "X": 127,
-                "Y": 518,
-                "RelativeX": 127,
-                "RelativeY": 518,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "borderRadius": 15,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "69.06666259765625%",
-                    "top": "82.2776142446355%",
-                    "display": "flex"
-                },
-                "FontBold": false,
-                "FontItalic": false,
-                "Raised": false,
-                "Disabled": false,
-                "ParentId": "2d5914f2-35b9-40b7-99d2-ae7088a79b2c",
-                "position": "absolute",
-                "edgeOffsets": 518
-            },
-            "children": [],
-            "id": "5433c515-e464-46c0-be47-88be0083b4e7",
-            "thunkableVersion": 443,
-            "name": "swap"
         },
         {
             "type": "Button",
@@ -234,9 +235,9 @@
                 "Width": 122,
                 "Visible": true,
                 "X": 127,
-                "Y": 434,
+                "Y": 409,
                 "RelativeX": 127,
-                "RelativeY": 434,
+                "RelativeY": 409,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -267,12 +268,42 @@
                 "Disabled": false,
                 "ParentId": "2d5914f2-35b9-40b7-99d2-ae7088a79b2c",
                 "position": "absolute",
-                "edgeOffsets": 434.00000000000006
+                "edgeOffsets": 409.99999999999994
             },
             "children": [],
             "id": "233487ed-6b99-4bb6-9bb1-2f1ae668c9eb",
             "thunkableVersion": 443,
             "name": "signup/in"
+        },
+        {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "2d5914f2-35b9-40b7-99d2-ae7088a79b2c",
+                "Y": 624,
+                "RelativeX": 0,
+                "RelativeY": 624,
+                "position": "absolute",
+                "edgeOffsets": 624,
+                "style": {
+                    "position": "absolute",
+                    "left": "1.7777750651041666%",
+                    "top": "65.83114692653673%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "137b31ba-6e85-4b2f-8cfa-0bc8b0fd75ba",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner1"
         },
         {
             "type": "Label",
@@ -807,7 +838,6 @@
             "name": "Label1"
         }
     ],
-    "id": "2d5914f2-35b9-40b7-99d2-ae7088a79b2c",
     "thunkableVersion": 443,
     "name": "SignUp Screen"
 }
